@@ -1,0 +1,22 @@
+{"question": "What are the four steps of a RAG pipeline?", "answerable": true, "gold_source": "rag_overview.md", "gold_keywords": ["chunks", "embedding", "retrieved"]}
+{"question": "Why does RAG reduce hallucination?", "answerable": true, "gold_source": "rag_overview.md", "gold_keywords": ["evidence"]}
+{"question": "How can two retrieval rankings be merged?", "answerable": true, "gold_source": "rag_overview.md", "gold_keywords": ["Reciprocal Rank Fusion"]}
+{"question": "What is the trade-off between small and large chunks?", "answerable": true, "gold_source": "rag_overview.md", "gold_keywords": ["context"]}
+{"question": "What does FAISS do?", "answerable": true, "gold_source": "embeddings_and_vector_search.md", "gold_keywords": ["similarity search"]}
+{"question": "How many dimensions does all-MiniLM-L6-v2 produce?", "answerable": true, "gold_source": "embeddings_and_vector_search.md", "gold_keywords": ["384"]}
+{"question": "When is cosine similarity equal to the inner product?", "answerable": true, "gold_source": "embeddings_and_vector_search.md", "gold_keywords": ["normalised", "unit length"]}
+{"question": "What is self-attention?", "answerable": true, "gold_source": "transformers_basics.md", "gold_keywords": ["token"]}
+{"question": "What is a context window?", "answerable": true, "gold_source": "transformers_basics.md", "gold_keywords": ["maximum number of tokens"]}
+{"question": "Why is LoRA memory efficient?", "answerable": true, "gold_source": "transformers_basics.md", "gold_keywords": ["adapter"]}
+{"question": "What is the difference between overfitting and underfitting?", "answerable": true, "gold_source": "model_evaluation.md", "gold_keywords": ["memorises", "too simple"]}
+{"question": "What is the F1 score?", "answerable": true, "gold_source": "model_evaluation.md", "gold_keywords": ["harmonic mean"]}
+{"question": "What does mean reciprocal rank reward?", "answerable": true, "gold_source": "model_evaluation.md", "gold_keywords": ["higher"]}
+{"question": "What does zero-shot prompting mean?", "answerable": true, "gold_source": "prompt_engineering.md", "gold_keywords": ["instructions only"]}
+{"question": "Which temperature is preferred for factual question answering?", "answerable": true, "gold_source": "prompt_engineering.md", "gold_keywords": ["zero"]}
+{"question": "How do Docker layers speed up rebuilds?", "answerable": true, "gold_source": "mlops_docker.md", "gold_keywords": ["cache", "requirements"]}
+{"question": "What is quantization?", "answerable": true, "gold_source": "mlops_docker.md", "gold_keywords": ["lower precision"]}
+{"question": "Which framework builds REST APIs and validates bodies with Pydantic?", "answerable": true, "gold_source": "mlops_docker.md", "gold_keywords": ["FastAPI"]}
+{"question": "Who won the 2018 FIFA World Cup?", "answerable": false, "gold_source": null, "gold_keywords": []}
+{"question": "What is the capital city of Australia?", "answerable": false, "gold_source": null, "gold_keywords": []}
+{"question": "How do I bake sourdough bread?", "answerable": false, "gold_source": null, "gold_keywords": []}
+{"question": "What is the population of Brazil?", "answerable": false, "gold_source": null, "gold_keywords": []}

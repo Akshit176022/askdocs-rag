@@ -1,0 +1,4 @@
+# Optional generators: `ASKDOCS_GENERATOR=anthropic` or `hf`
+anthropic>=0.40
+transformers>=4.44
+torch>=2.2

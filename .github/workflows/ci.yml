@@ -1,0 +1,19 @@
+name: CI
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install numpy scikit-learn faiss-cpu fastapi uvicorn pydantic pypdf python-multipart pytest httpx
+      - run: python -m pytest -q
+        env:
+          ASKDOCS_EMBEDDER: hashing
+      - run: python -m askdocs ingest data/sample_docs && python -m askdocs eval -k 3
+        env:
+          ASKDOCS_EMBEDDER: hashing
+          ASKDOCS_STORAGE_DIR: ./ci_storage
